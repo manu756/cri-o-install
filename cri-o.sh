@@ -28,8 +28,8 @@ go get -d github.com/kubernetes-incubator/cri-o
 cd $GOPATH/src/github.com/kubernetes-incubator/cri-o
 make install.tools
 make
-sudo make install
-sudo make install.config
+make install
+make install.config
 
 sudo sh -c 'echo "[Unit]
 Description=OCI-based implementation of Kubernetes Container Runtime Interface
