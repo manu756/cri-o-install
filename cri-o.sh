@@ -67,5 +67,5 @@ make
 make install
 
 sudo crictl --runtime-endpoint /var/run/crio/crio.sock info
-$CRI_RUNTIME_ENDPOINT=/var/run/crio/crio.sock
+CRI_RUNTIME_ENDPOINT=/var/run/crio/crio.sock
 CRI_RUNTIME_ENDPOINT="/var/run/crio/crio.sock" >> /etc/environment
